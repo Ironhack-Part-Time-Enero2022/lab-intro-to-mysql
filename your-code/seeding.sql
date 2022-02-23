@@ -9,8 +9,8 @@ VALUES (0, 00001, 'Petey Cruiser', 'Madrid'),
 	   (5, 00006, 'Bob Frapples', 'Mexico City'),
 	   (6, 00007, 'Walter Melon', 'Amsterdam'),
 	   (7, 00008, 'Shonda Leer', 'São Paulo');
-       
-INSERT INTO customers (idcustomers, customers_id, `name`, email, phone, adress, city, state_province, country, postal)
+DELETE FROM customers;
+INSERT INTO customers (idcustomers, customers_id, `name`, phone, email, adress, city, state_province, country, postal)
 VALUES (0, 10001, 'Pablo Picasso', 34636176382, '', 'Paseo de la Chopera 14', 'Madrid', 'Madrid', 'Spain', 28045),
 	   (1, 20001, 'Abraham Lincoln', 13059077086, '', '120 SW 8th St', 'Miami',	'Florida', 'United States',	33130),
 	   (2, 30001, 'Napoléon Bonaparte',	33179754000, '', '40 Rue du Colisée', 'Paris', 'Ile-de-France',	'France', 75008);
